@@ -6,9 +6,11 @@ float comparisonFunc(float a, float b, float c);
 int main(){
 	
 	//Local vars.
-	float a = 0.0f;
-	float b = 0.0f;
-	float c = 0.0f;
+	float a = 10.0f;
+	float b = 20.0f;
+	float c = 30.0f;
+
+	//User input
 
 	float fResult = comparisonFunc(a, b, c);
 	//	printf("Result: %f\n\r", fResult);
